@@ -1,5 +1,4 @@
 import formatCurrency from "../assets/utils/formatCurrency.js"; 
-import pizzas from "../data/pizzas.js"; 
 
 const CardPizza = ({pizza}) =>{
     return (
@@ -32,7 +31,8 @@ const CardPizza = ({pizza}) =>{
               </button>
           </div>
             </p>
-            {/* <div>$ {formatCurrency({pizza.price})}</div>  */}
+             {/* <div>$ {formatCurrency({pizza.price})}</div> */}  
+             <div>$ {pizza.price}</div>
             
           </div>                      
         </div>        

@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 
-const LoginPage = () => {
+const Login = () => {
    //Estados del formulario
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");  
@@ -63,4 +63,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Login;
